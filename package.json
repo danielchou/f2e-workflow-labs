@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"browser-sync start --server --files=\"*\""
+    "start": "browser-sync start --server --files=\"app/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/danielchou/f2e-workflow-labs/issues"
   },
-  "homepage": "https://github.com/danielchou/f2e-workflow-labs#readme"
+  "homepage": "https://github.com/danielchou/f2e-workflow-labs#readme",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "browser-sync": "^2.9.11",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.2.0",
+    "require-dir": "^0.3.0"
+  }
 }

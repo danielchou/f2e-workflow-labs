@@ -1,0 +1,30 @@
+{
+  "name": "f2e-workflow-labs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/danielchou/f2e-workflow-labs",
+  "authors": [
+    "daniel.chou <daniel0422@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "toastr": "~2.1.2",
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "angular-sanitize": "~1.4.7",
+    "moment": "~2.10.6",
+    "angular-ui-router": "~0.2.15",
+    "angular-animate": "~1.4.7",
+    "extras.angular.plus": "~0.9.3"
+  }
+}
